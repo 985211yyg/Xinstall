@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shubao.xinstall"
+    android:versionCode="1"
+    android:versionName="1.1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <application>
+        <activity
+            android:name="com.xinstall.OnePXActivity"
+            android:theme="@style/OnePxActivityStyle" />
+
+        <meta-data
+            android:name="xinstall_third_platform"
+            android:value="XINSTALL_THIRDPLATFORM_FLUTTER_THIRDPLATFORM_XINSTALL" />
+        <meta-data
+            android:name="xinstall_third_version"
+            android:value="XINSTALL_THIRDSDKVERSION_0.1.4_THIRDSDKVERSION_XINSTALL" />
+    </application>
+
+</manifest>
