@@ -1,0 +1,2 @@
+configurations.maybeCreate('default')
+artifacts.add('default',file('XInstall_flutter_V0.1.4.aar'))

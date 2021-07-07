@@ -1,3 +1,4 @@
 rootProject.name = "Xinstall"
 include ':app'
 include ':xinstall'
+include ':aar'
